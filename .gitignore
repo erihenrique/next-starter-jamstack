@@ -17,9 +17,9 @@
 
 # misc
 .DS_Store
-#.env*   - sem comentarios no original
+.env*   
 # adicionado do exemplo
-*.pem
+#*.pem
 
 # debug
 npm-debug.log*
