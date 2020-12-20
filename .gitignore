@@ -17,9 +17,21 @@
 
 # misc
 .DS_Store
-.env*
+#.env*   - sem comentarios no original
+# adicionado do exemplo
+*.pem
 
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# linhas abaixo adicionado do exemplo
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
